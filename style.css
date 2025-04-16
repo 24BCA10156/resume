@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-image: url('https://images.unsplash.com/photo-1574934797601-4399cf3d2df6?q=80&w=1974&auto=format&fit=crop');
+  background-image: url('image_page-0001.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -50,7 +50,7 @@ nav ul li a {
 
 /* HERO SECTION */
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1640035209336-df638dd26c4d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('image1_page-0001.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
