@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Himachal Tour Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Himachal Tour Planner</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Plan Tour</a></li>
+        <li><a href="#">Popular Spots</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore the Beauty of Himachal Pradesh</h2>
+    <p>Plan your perfect getaway in the hills!</p>
+  </section>
+
+  <main>
+    <section class="section">
+      <h2>Plan Your Tour</h2>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="places">Places to Visit</label>
+        <textarea id="places" rows="4" placeholder="Shimla, Manali, Dharamshala..." required></textarea>
+
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" required>
+
+        <button type="submit">Submit Plan</button>
+      </form>
+    </section>
+
+    <section class="section">
+      <h2>Popular Destinations</h2>
+      <ul>
+        <li>Shimla – The Queen of Hills</li>
+        <li>Manali – Adventure Paradise</li>
+        <li>Dharamshala – Home of the Dalai Lama</li>
+        <li>Spiti Valley – A Cold Desert Beauty</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
