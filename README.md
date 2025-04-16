@@ -1,2 +1,2 @@
-# resume
-my web designing project
+Project Title
+Himachal-Tour-Planner
